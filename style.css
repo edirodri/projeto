@@ -12,6 +12,7 @@ header nav ul{
 header nav ul li{
 	list-style:none;
 	margin: 10px;
+    flex-wrap: wrap;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -34,6 +35,7 @@ section#noticias{
 }
 section#noticias ul{
 	display: flex;
+    flex-wrap: wrap;
 }
 section#noticias ul li{
 	list-style:none;
@@ -73,6 +75,7 @@ section#noticias ul li a{
 	background: red;
 	display: block;
 	padding: 5px 0;
+    
 }
 section#noticias ul li a:hover{
 	background: blue;
